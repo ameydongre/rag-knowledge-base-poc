@@ -1,0 +1,9 @@
+{
+  "aws_region": "us-east-1",
+  "knowledge_base_id": "YOUR_KNOWLEDGE_BASE_ID_HERE",
+  "api_gateway_url": "YOUR_API_GATEWAY_URL_HERE",
+  "dynamodb_table": "DocumentMetadata",
+  "s3_bucket_documents": "rag-documents-YOUR-NAME-RANDOM",
+  "embedding_model": "amazon.titan-embed-text-v2:0",
+  "llm_model": "anthropic.claude-3-sonnet-20240229-v1:0"
+}

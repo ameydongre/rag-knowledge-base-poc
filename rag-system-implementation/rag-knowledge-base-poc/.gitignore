@@ -1,0 +1,45 @@
+# AWS Credentials and Sensitive Data
+*.pem
+*.key
+*.credentials
+.aws/
+credentials
+config
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# API Keys and Secrets
+*secret*
+*password*
+*api_key*
+*access_key*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+
+# Lambda Layers
+*.zip
+python/
+lambda-layer/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temporary files
+*.tmp
+temp/
